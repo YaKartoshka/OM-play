@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #1D1919;
+    align-items: center;
+    }
+
+nav a{
+     color: white;
+       text-decoration: none;
+      transition: 0.5s;
+    }
+
+nav a:hover{
+    transform: scale(1.05);
+    }
+
+body{
+    margin: 0;
+    background-image: url(../img/1541054584_2-AWP.jpg); 
+    background-size: cover;
+}
+
+footer{
+    height: 60px;
+    background-color:#1D1919 ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+div{
+position: absolute;
+left: auto;
+top: 273px;
+font-family: 'Kotta One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 42px;
+text-align: center;
+color: #FCC966;
+}
+
+
+
